@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class CardModels : MonoBehaviour
+public class CardsModels : MonoBehaviour
 {
+    SpriteRenderer spriteRenderer;
+
     public Sprite[] faces;
-    public sprite cardback;
+    public Sprite cardBack;
 
     public int cardIndex; // e.g faces [card index];
 
@@ -14,11 +16,11 @@ public class CardModels : MonoBehaviour
 
         if (showFace)
         {
-            spriteRenderer.sprite = faces[cardIndex]
+            spriteRenderer.sprite = faces[cardIndex];
         }
         else
         {
-            //TODO: Show the card face
+            spriteRenderer.sprite = cardBack;
         }
     }
 
