@@ -9,7 +9,7 @@ public class DebugChangeCard : MonoBehaviour
 
     public GameObject card;
 
-    void Start()
+    void Awake()
     {
         cardsModels = card.GetComponent<CardsModels>();
     }
