@@ -29,15 +29,12 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: aa5d905adbd0a7b45883fcffef0ab945, type: 3}
     - {fileID: 21300000, guid: 8e08201cec45666458ce8302959c3f09, type: 3}
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: aa5d905adbd0a7b45883fcffef0ab945, type: 3}
   - {fileID: 21300000, guid: 8e08201cec45666458ce8302959c3f09, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Deck-72
   - CardDeck_72x100_0
   m_Tag: Atlas
   m_IsVariant: 0
